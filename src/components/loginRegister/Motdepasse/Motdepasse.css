@@ -1,0 +1,29 @@
+.mdp, h5{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: 10px;
+    text-align: center;
+}
+input{
+    border: 2px solid rgb(218,129,13);
+    border-radius: 20px 0px;
+}
+ #btn{
+    border-radius: 20px 0px;
+    background-color: rgb(218,129,13);
+    color: black;
+}
+.champs{
+margin-left: 20px;
+}
+@media screen and (max-width: 700px){
+    .mdp{
+        display: inline;
+        justify-content: center;
+    }
+    .champs, .img{
+        text-align: center;
+        }
+}

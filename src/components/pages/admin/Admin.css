@@ -1,0 +1,117 @@
+.container-fluid a{
+    text-decoration: none;
+    color: white;
+}
+#search{
+    color: rgb(218, 129, 13);
+    border: 1px solid ;
+    border-radius: 20px 0px;
+}
+#search:hover{
+    color: white;
+    background-color: rgb(218, 129, 13);
+}
+.navbar{
+    margin-bottom: 40px;
+    
+}
+.card{
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+#users{
+    background-color: white;
+    border-radius: 40px 0px;
+    color: black;
+    border-left: 15px solid #222831;
+    /* border-bottom: 15px solid #222831; */
+    box-shadow: 0 4px 10px rgb(81, 79, 79);
+}
+#categorie{
+    background-color: white;
+    border-radius: 40px 0px ;
+    color: black;
+    border-left: 15px solid rgb(247, 196, 30);
+    /* border-bottom: 15px solid rgb(247, 196, 30); */
+    box-shadow: 0 5px 10px rgb(242, 238, 171);
+}
+#produit{
+    background-color: white;
+    border-radius: 40px 0px ;
+    color: black;
+    border-left: 15px solid green;
+    /* border-bottom: 15px solid green; */
+    box-shadow: 0 5px 10px rgb(202, 235, 203);
+
+}
+#commandes{
+    background-color: white;
+    border-radius: 40px 0px ;
+    color: black;
+    border-left: 15px solid rgba(185, 10, 10, 0.852);
+    /* border-bottom: 15px solid rgba(185, 10, 10, 0.852); */
+    box-shadow: 0 5px 10px rgb(241, 203, 203);
+
+}
+.commande, .produits, .users, .categorie{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right:0px ;
+}
+.card-title{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.valeur h1{
+font-size:35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#icon_users {
+    color: white;
+}
+#icon_users:hover{
+    color:#222831 ;
+}
+.icon .btn{
+    border-radius: 20px 0px;
+    margin-top: 5px;
+    margin-left: 0px;
+    box-shadow: 0 5px 10px rgb(30, 28, 28);
+}
+.dropdown a{
+    color: rgb(218, 129, 13);
+}
+.dropdown a:hover{
+    color: black;
+}
+.container-fluid{
+    font-display: flex;
+}
+
+@media screen and (max-width:700px){
+    
+    .commande, .produits, .users, .categorie{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        /* justify-content: center; */
+    }
+    .container-fluid{
+        font-display: flex;
+        justify-content: center;
+
+    }
+    .container-fluid .img img{
+        text-align: center;
+        width: 100px;
+        height: 70px;
+    }
+    .card-body{
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,36 @@
+
+.connex, h5{
+    display: flex;
+    justify-content: center;
+    box-shadow: in10pxset;
+    text-align: center;
+}
+label{
+    font-size: 10px;
+    text-align: center;
+}
+input{
+    border: 1px solid rgb(218,129,13);
+    border-radius: 20px 0px;
+}
+ #btn{
+    border-radius: 20px 0px;
+    background-color: rgb(218,129,13);
+    color: black;
+}
+.champs{
+margin-left: 20px;
+}
+p a{
+    color: rgb(218,129,13);
+    text-decoration: none;
+}
+@media screen and (max-width: 700px){
+    .connex{
+        display: inline;
+        justify-content: center;
+    }
+    .champs, .img{
+        text-align: center;
+        }
+}

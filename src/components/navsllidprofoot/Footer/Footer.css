@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    margin-top: 75px;
+}
+.Oh_delices, .service, .partenaire, .aide{
+    margin:50px 75px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.Oh_delices:hover, .service:hover, .partenaire:hover, .aide:hover{
+    color: rgb(218,129,13);
+}
+.copy{
+    text-align: center;
+padding-top: 30px;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(218,129,13);
+}
+
+
+
+@media screen and (max-width:768px)
+ {
+    .footer{
+        display: block;
+        margin: auto;
+        background-color: black;
+        color: white;
+    }
+    .Oh_delices, .service, .partenaire, .aide{
+        text-align: center;
+    }
+}

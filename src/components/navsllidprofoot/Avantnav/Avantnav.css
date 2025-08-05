@@ -1,0 +1,76 @@
+.avantnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgb(81, 79, 79);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.connexion{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+a:hover{
+    margin-left: 10px;
+    text-decoration: none;
+}
+i{
+    color: black;
+    border-radius: 50px ;
+    padding: 10px;
+    background-color: rgb(218, 129, 13);
+}
+i:hover{
+    color: rgb(218, 129, 13);
+    border-radius: 50px ;
+    padding: 10px;
+    background-color: white;
+}
+.login , .register{
+margin-right: 10px;
+border-radius: 20px 0px 20px 0px;
+background-color: rgb(218, 129, 13);
+padding: 0px 10px;
+
+}
+.login:hover , .register:hover{
+    margin-right: 10px;
+    border-radius: 20px 0px 20px 0px;
+    background-color: rgb(218, 129, 13);
+    color:white ;
+    
+    }
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a:hover{
+    text-decoration: none;
+    color: white;
+}
+    @media screen and (max-width: 700px){
+        .avantnav{
+            margin: auto;
+        }
+        .connexion .register{
+            display: none;
+            
+        }
+    }
+
+
+video{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

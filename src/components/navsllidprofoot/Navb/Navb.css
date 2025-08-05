@@ -1,0 +1,24 @@
+#panier{
+    text-decoration: none;
+    color: black;
+}
+#search{
+    color: rgb(218, 129, 13);
+    box-shadow: 0 3px 7px rgb(70, 45, 3);
+}
+#search:hover{
+    color: black;
+    background-color: rgb(218, 129, 13);
+}
+sup{
+    color: black;
+    font-size: 25px;
+}
+#ohDelice ,#produits, #navbarScrollingDropdown, #action{
+    color: black;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+#ohDelice:hover ,#produits:hover{
+    color: rgb(218, 129, 13);
+}
